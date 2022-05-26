@@ -1,5 +1,5 @@
 #!/bin/bash
-git clone https://gitlab.com/canxb33/app/app_build/builder.git --branch 1.0.1 $HOME/.canxb33
+git clone https://gitlab.com/canxb33/app/app_build/builder.git --branch 1.0.3 $HOME/.canxb33
 touch ~/.bashrc
 touch ~/.bash_profile
 echo "export CANXB33_DIR=\"$HOME/.canxb33\"" >> $HOME/.bashrc
